@@ -20,6 +20,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Services", "GeoLib.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Tests", "GeoLib.Tests\GeoLib.Tests.csproj", "{6052C4E7-213A-47A0-B898-253880F20B29}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosting", "Hosting", "{6EE4C524-F88E-42B9-881E-D035D947CB3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.ConsoleHost", "GeoLib.ConsoleHost\GeoLib.ConsoleHost.csproj", "{25E38FCA-373E-48E7-97F2-1DAA092BFE84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -82,8 +86,21 @@ Global
 		{6052C4E7-213A-47A0-B898-253880F20B29}.Release|ARM.ActiveCfg = Release|Any CPU
 		{6052C4E7-213A-47A0-B898-253880F20B29}.Release|x64.ActiveCfg = Release|Any CPU
 		{6052C4E7-213A-47A0-B898-253880F20B29}.Release|x86.ActiveCfg = Release|Any CPU
+		{25E38FCA-373E-48E7-97F2-1DAA092BFE84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E38FCA-373E-48E7-97F2-1DAA092BFE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E38FCA-373E-48E7-97F2-1DAA092BFE84}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{25E38FCA-373E-48E7-97F2-1DAA092BFE84}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{25E38FCA-373E-48E7-97F2-1DAA092BFE84}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{25E38FCA-373E-48E7-97F2-1DAA092BFE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E38FCA-373E-48E7-97F2-1DAA092BFE84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E38FCA-373E-48E7-97F2-1DAA092BFE84}.Release|ARM.ActiveCfg = Release|Any CPU
+		{25E38FCA-373E-48E7-97F2-1DAA092BFE84}.Release|x64.ActiveCfg = Release|Any CPU
+		{25E38FCA-373E-48E7-97F2-1DAA092BFE84}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{25E38FCA-373E-48E7-97F2-1DAA092BFE84} = {6EE4C524-F88E-42B9-881E-D035D947CB3C}
 	EndGlobalSection
 EndGlobal
